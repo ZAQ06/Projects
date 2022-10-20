@@ -1,0 +1,106 @@
+
+
+/*------------------
+  Header section
+---------------------*/
+
+.site-navbar {
+    padding: 15px 70px;
+}
+
+.site-navbar.bg-dark {
+    background-color: #262626 !important;
+}
+
+.site-logo h2 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.site-logo h2 span {
+    color: #00ffff;
+}
+
+.site-logo p {
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.43;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    margin-bottom: 0;
+}
+
+.site-navbar.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.site-navbar.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff006c;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 30px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff006c;
+}
+/*  */
+
+
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left,   #00e6e6, #006666);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background:  #00cccc;
+    color: #fff;
+}
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+} 
+
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("5.jpg");
+    background-size: 90%;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+    }
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
